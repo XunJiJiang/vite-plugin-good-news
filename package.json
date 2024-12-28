@@ -1,5 +1,6 @@
 {
   "name": "vite-plugin-good-news",
+  "description": "Sad News or Good News?",
   "version": "1.0.0",
   "main": "src/index.ts",
   "type": "module",
@@ -7,7 +8,19 @@
     "build": "rollup --config ./rollup.config.js && rollup --config ./rollup.config.dts.js",
     "release": "powershell ./publish.ps1"
   },
-  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/XunJiJiang/vite-plugin-good-news/issues"
+  },
+  "homepage": "https://github.com/XunJiJiang/vite-plugin-good-news#readme",
+  "keywords": ["vite", "plugin", "good-news"],
+  "author": "XunJiJiang",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src",
+    "license",
+    "README.md"
+  ],
   "exports": {
     ".": {
       "import": "./dist/index.es.js",
@@ -15,15 +28,6 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "author": "XunJiJiang",
-  "license": "MIT",
-  "description": "Sad News or Good News?",
-  "files": [
-    "dist",
-    "src",
-    "license",
-    "README.md"
-  ],
   "peerDependencies": {
     "vite": "^5.0.0 || ^6.0.0"
   },
