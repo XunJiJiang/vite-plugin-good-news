@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-good-news",
   "description": "Sad News or Good News?",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
